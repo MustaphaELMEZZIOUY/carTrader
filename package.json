@@ -1,0 +1,32 @@
+{
+  "name": "mustapha-elmezziouy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ./database-test.js && next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^4.9.12",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
+    "@mui/material": "^5.0.0",
+    "axios": "^0.19.2",
+    "fast-deep-equal": "^3.1.3",
+    "formik": "^2.2.9",
+    "next": "9.3.6",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sqlite": "4.0.7",
+    "sqlite3": "4.2.0",
+    "swr": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "13.13.4",
+    "@types/react": "16.9.34",
+    "typescript": "3.8.3"
+  }
+}
